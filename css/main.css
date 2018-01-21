@@ -17,9 +17,15 @@ body {
 body .main { color: rgb(11, 11, 11); }
 body:hover .main {
     color: rgb(0, 117, 255);
-    text-shadow: 0px 4px 4px rgb(11, 11, 11);; 
+    text-shadow: 0px 4px 4px rgb(11, 11, 11);;
 }
 
 h1 {
     font-size: 4em;
+}
+
+.social {
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
